@@ -16,7 +16,7 @@ var value = env.getValue('PORT', 3000);
 console.log('PORT: ' + value );
 ```
 
-start the node server using: 
+execute index.js using node by using: 
 
 `PORT=8000 node index.js`
 
