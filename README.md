@@ -1,7 +1,7 @@
 # env-var
 Small wrapper class for retrieving environment variable values.
 
-This file has no dependencies.
+This module has no dependencies.
 
 ## How to install:
 npm i @alansav/env-var
