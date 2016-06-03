@@ -20,14 +20,16 @@ execute index.js using node by using:
 
 `PORT=8000 node index.js`
 
-This sets an environment variable named PORT with the value of 8000. This will output PORT: 8000
+This sets an environment variable named PORT with the value of 8000 and this will output:
+`PORT: 8000`
 
-If you now stop the node server and then start using:
+If you execute index using node by using:
 
 `node index.js`
 
-This will use the default value of 3000 since no environment variable is set and will output PORT: 3000
+This will use the default value of 3000 since no environment variable is set and will output:
+`PORT: 3000`
 
-If the default value is logged then a warning is logged to the console:
+If the default value is logged then a warning will be logged to the console:
 
 Environment variable PORT not specified, using default value: 3000
