@@ -1,10 +1,11 @@
 {
   "name": "@alansav/env-var",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Small wrapper class for retrieving environment variable values.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/index_test.js",
+    "coverage": "istanbul cover _mocha test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/alansav/env-var/issues"
   },
-  "homepage": "https://github.com/alansav/env-var#readme"
+  "homepage": "https://github.com/alansav/env-var#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "istanbul": "0.4.3",
+    "mocha": "2.5.3",
+    "sinon": "1.17.4"
+  }
 }
