@@ -1,6 +1,6 @@
 {
   "name": "@alansav/env-var",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small wrapper class for retrieving environment variable values.",
   "main": "index.js",
   "scripts": {
